@@ -1,0 +1,157 @@
+body {
+  border: 2px solid #000000; /* Цвет и толщина рамки */
+  font-family: Arial, sans-serif;
+  background-color: #d1d9d7;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #5ed8fe;
+  
+}
+.header {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  max-width: 100%;
+  height: auto;
+  width: 207px; /* Настройте желаемую ширину */
+  border: 2px solid #000000;
+}
+.slogan {
+  font-size: 37px;
+  color: #000000; /* Цвет текста для слогана */
+  border: 2px solid #000000;
+  padding: 50px;
+}
+.user-section {
+  margin-right: 40px;
+}
+.search {
+  margin-right: 40px;
+}
+.search input {
+  background-color: #ffffff; /* Цвет фона для инпута поиска */
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+.search button {
+  background-color: #8B7AA8; /* Цвет фона для кнопки поиска */
+  color: #ffffff; /* Цвет текста для кнопки поиска */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+footer{
+background-color: #8B7AA8;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* Фиксированная позиция */
+    bottom: 0; /* Прижат к нижней части экрана */
+    width: 100%;
+}
+.login {
+  margin-right: 20px;
+}
+.login a {
+  color: #ffffff; /* Цвет текста для ссылки авторизации */
+}
+.nav-links {
+  display: flex; /* Располагаем элементы в строку */
+  justify-content: space-around; /* Равномерное распределение по ширине родительского контейнера */
+  padding: 10px; /* Добавляем отступы по краям элемента */
+}
+.nav-links a {
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+  color: #333; /* Цвет текста ссылок */
+  
+}
+.nav-links a:hover {
+  background-color: #f0f0f0; /* Изменяем цвет фона при наведении */
+}
+hr {
+  width: 85%;
+  border-color: #000000; /* Цвет линии hr */
+}
+.image-container {
+  display: inline-block;
+  text-align: center;
+  margin: 110px;
+}
+.image-container img {
+  width: 270px; 
+  height: auto;
+  border: 3px solid #000000; /* Цвет рамки для изображений */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Отступ от заголовка */
+}
+td {
+  border: 3px solid #000000;
+  padding: 10px;
+}
+button:hover {
+  background-color: #6E6C78; /* Цвет фона для кнопки при наведении */
+}
+button {
+  background-color: #8B7AA8; /* Цвет фона для кнопки */
+  color: #ffffff; /* Цвет текста для кнопки */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+form label {
+  margin-bottom: 10px;
+}
+form input {
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center; /* Добавлено выравнивание по центру для h2 */
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #8B7AA8;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #6E6C78;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  gap: 75 px; /* Расстояние между кнопками */
+  margin-top: 20px;
+}
+.name-row, .password-row {
+  display: flex;
+  gap: 20px; /* Расстояние между полями */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000000; /* Цвет рамки */
+  padding: 20px; /* Отступ внутри рамки */
+  max-width: 600px; /* Максимальная ширина формы */
+  margin: 0 auto; /* Центрирование формы по горизонтали */
+}
